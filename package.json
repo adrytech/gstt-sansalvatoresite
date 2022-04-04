@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "bootstrap-icons": "^1.8.1",
+    "foundation-sites": "^6.7.4",
+    "milligram": "^1.4.1",
+    "milligram-cli": "^0.1.2"
+  }
+}
