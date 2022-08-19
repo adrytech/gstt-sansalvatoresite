@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+html,
+
+.navbar{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.container-fluid.my-container-fluid{
+    justify-content: center;
+}
+
+#greenline1{
+    background-color: #198754;
+    height: 5px;
+    position:absolute;
+    width: 100%;
+}
+
+.login{
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+
+.login:hover{
+    background-color: #198754;
+}

@@ -1,4 +1,4 @@
 $(document).ready(function () {
     const navalt = $("nav").outerHeight();
-    $("#sticky2").css("top",navalt+"px");
+    $("#greenline1").css("top",navalt+"px");
 });

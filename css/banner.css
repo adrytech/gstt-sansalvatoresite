@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Alfa Slab One');
+
+.mainimg{
+    position: relative;
+    background-color: #212529;
+    background-size: cover;
+    height: 600px;
+    overflow: hidden;
+    transition: 250ms linear;
+}
+
+.mainimg:hover{
+    background-color: #20212b;
+    transition: 250ms linear;
+}
+
+/* .mainimg:hover{
+    background: url(/img/banner2.png) center;
+    transition: all linear 0.1s;
+    position: relative;
+}*/
+
+#banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    transition: 300ms linear;
+}
+
+#banner h1{
+    margin: 0;
+    font-weight: 450;
+    font-size: 6.5vmax;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    transition: 300ms linear;
+}  
+
+#banner:hover{
+    transition: 1500ms linear;
+    position: relative;
+}
+
+#banner h1:hover{
+    font-size: 6.7vw;
+    transition: 150ms linear;
+    position: relative;
+}
+
+#greenline2{
+    background-color: #198754;
+    height: 6px;
+    width: 100%;
+    position: absolute;
+}

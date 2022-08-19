@@ -1,0 +1,54 @@
+footer{
+    background-color: #212529;
+    color:#b9b3b3;
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+    bottom: 0;
+}
+
+#greenline3{
+    background-color: #198754;
+    height: 5px;
+    position:absolute;
+    width: 100%;
+}
+
+.profile-card-3 {
+    border-radius: 5px;
+    overflow: hidden;
+    position:relative;
+    margin: 10px auto;
+    cursor: pointer;
+    padding: 50px 15px;
+    width: 300px;
+    height: 300px;
+}
+  
+.profile-card-3 .profile-name {
+    font-weight: bold;
+    color: #b9b3b3;
+}
+  
+.profile-card-3 img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin: 10px auto;
+    border-radius: 50%;
+    transition: all linear 0.25s;
+    filter:brightness(0.8);
+ }
+  
+.profile-card-3 .profile-description {
+    font-size: 13px;
+    color: #777;
+    padding: 10px;
+}
+  
+.profile-card-3:hover img {
+    height: 110px;
+    width: 110px;
+    margin: 5px auto;
+    filter:brightness(1);
+
+}

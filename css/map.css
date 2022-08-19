@@ -1,0 +1,17 @@
+.map-responsive{
+    padding-bottom:35%;
+    position:relative;
+    
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+#map-shadow{
+    box-shadow: 0px 0px 10px 7px #212529;
+}

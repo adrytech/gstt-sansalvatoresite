@@ -1,0 +1,82 @@
+#card{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: #EAE3D2;
+}
+
+#cardimg1{
+  border-radius: 3rem;
+  border-bottom-left-radius: 0%;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 30%;
+  border-top-left-radius: 30%;
+  border: 0.20rem solid #607EAA;
+}
+
+#cardimg2{
+  border-radius: 30%;
+  border: 0.20rem solid #607EAA;
+}
+#cardimg3{
+  border-radius: 3rem;
+  border-bottom-left-radius: 30%;
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 0%;
+  border-top-left-radius: 0%;
+  border: 0.20rem solid #607EAA;
+}
+
+#overlay{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+#overlay:hover{
+  opacity: 1;
+}
+
+.card:hover img{
+  filter:brightness(0.5);
+}
+
+#titlecard{
+  position:absolute;
+  top: 45%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: 'Alfa Slab One';
+  font-weight:300;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  color: white;
+  text-shadow: 0px 0px 20px #000000;
+  z-index:1;
+}
+
+#subtitle{
+  position:absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: 'Alfa Slab One';
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  color: white;
+  text-shadow: 0px 0px 20px #000000;
+  z-index:1;
+  text-align: center;
+}
