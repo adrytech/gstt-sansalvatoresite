@@ -10,6 +10,7 @@ $config = [
 
 $db_config = $config['db_engine'] . ":host=".$config['db_host'] . ";dbname=" . $config['db_name'];
 
+
 try {
     $pdo = new PDO($db_config, $config['db_user'], $config['db_password'], [
         PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"
@@ -21,5 +22,7 @@ try {
     exit("Impossibile connettersi al database: " . $e->getMessage());
 
 }
+
+
 
 ?>

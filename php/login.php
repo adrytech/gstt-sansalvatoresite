@@ -1,15 +1,41 @@
 <?php
 
 include 'database.php';
-$mysqli = new mysqli("localhost", "root", "", "db_derthona");
 
- $name = $_POST['name'];
- $surname = $_POST['surname'];
+
+ $name = strtolower($_POST['name']);
+ $surname = strtolower($_POST['surname']);
  $password = $_POST['password'];
 
- echo $name ."  ". $surname;
+ $conn = new mysqli('127.0.0.1', 'root', '', 'db_derthona');
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
 
- $mysqli->query("SELECT id, FROM users");
+$sql = "SELECT id, name, surname, password FROM users";
 
- echo $mysqli;
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+  // output data of each row
+  while($row = $result->fetch_assoc()) {
+
+    if($name  === strtolower($row["name"]) && $surname === strtolower($row["surname"]) && $password === $row["password"]){
+        echo "ciao " .$row["name"];
+        
+    }else{
+    }
+
+  }
+} else {
+  echo "0 results";
+}
+
+
+
+$conn->close();
+
+ 
+
 ?>
