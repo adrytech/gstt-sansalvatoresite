@@ -1,3 +1,25 @@
 .logocard{
     filter:brightness(0.5);
 }
+
+.form-control{
+    background-color: #EAE3D2;
+}
+
+-moz-placeholder{
+    text-align: center;
+}
+
+::-webkit-input-placeholder{
+    text-align: center;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+input::placeholder { 
+    color: rgb(20, 100, 150) !important;  
+    opacity: 1;  
+    text-align: center;
+}
