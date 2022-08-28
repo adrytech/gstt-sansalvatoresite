@@ -30,10 +30,15 @@
     transition: 300ms linear;
 }
 
+#banner:hover{
+    transition: 1500ms linear;
+    position: relative;
+}
+
 #banner h1{
     margin: 0;
     font-weight: 450;
-    font-size: 6.5vmax;
+    font-size: 5.6vw;
     font-family: 'Alfa Slab One', cursive;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -45,15 +50,10 @@
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
     transition: 300ms linear;
-}  
-
-#banner:hover{
-    transition: 1500ms linear;
-    position: relative;
 }
 
 #banner h1:hover{
-    font-size: 6.7vw;
+    font-size: 6vw;
     transition: 150ms linear;
     position: relative;
 }

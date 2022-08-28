@@ -9,6 +9,9 @@ html,
 .navbar-collapse{
     flex-grow: 0;
 }
+.navbar .navbar-collapse {
+    text-align: center;
+}
 
 .container-fluid.my-container-fluid{
     justify-content: center;
@@ -17,13 +20,16 @@ html,
 #greenline1{
     background-color: #198754;
     height: 5px;
-    position:absolute;
+    position:sticky;
     width: 100%;
 }
 
 .login{
     border-top-left-radius: 30%;
     border-bottom-right-radius: 30%;
+    width: min-content;
+    align-items: center;
+    text-align: center;
 }
 
 .login:hover{
