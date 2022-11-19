@@ -10,10 +10,10 @@
     transition: 250ms linear;
 }
 
-.mainimg:hover{
+/* .mainimg:hover{
     background-color: #20212b;
     transition: 250ms linear;
-}
+} */
 
 /* .mainimg:hover{
     background: url(/img/banner2.png) center;
@@ -23,17 +23,17 @@
 
 #banner{
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     transition: 300ms linear;
 }
 
-#banner:hover{
+/* #banner:hover{
     transition: 1500ms linear;
     position: relative;
-}
+} */
 
 #banner h1{
     margin: 0;
@@ -52,11 +52,11 @@
     transition: 300ms linear;
 }
 
-#banner h1:hover{
+/* #banner h1:hover{
     font-size: 6vw;
     transition: 150ms linear;
     position: relative;
-}
+} */
 
 #greenline2{
     background-color: #198754;

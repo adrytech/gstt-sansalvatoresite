@@ -1,0 +1,62 @@
+.calendar{
+    background-color: #eae3d2;
+    height: 32rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+    color: rgba(255, 255, 255, 0.863);
+}
+
+.card-title{
+    
+    border-radius: 20px;
+    margin-top: 1%;
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.card-body{
+
+}
+
+.titlepalestra{
+    text-align: left;
+}
+
+.orario{
+    background-color: rgb(255, 220, 19);
+    width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    border: 0.2rem solid black;
+    
+
+}
+
+.prenotati{
+    background-color: #212529;
+    width: 100%;
+    height: 23rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.buttonprenota{
+    width: 10rem;
+    height: 2.5rem;
+    background-color: #198754;
+    margin-top: 0.3rem;
+    border: 0.2rem solid black;
+    color: white;  
+    transition: box-shadow 0.5s ease-in-out;  
+}
+.buttonprenota:hover{
+    
+    box-shadow: inset 0 0 0.3rem #d0d0d0;
+}

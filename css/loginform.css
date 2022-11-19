@@ -23,3 +23,7 @@ input::placeholder {
     opacity: 1;  
     text-align: center;
 }
+
+.form-check-label{
+    justify-content: left;
+}

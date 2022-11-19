@@ -4,6 +4,7 @@ include 'database.php';
 
 
  $name = strtolower($_POST['name']);
+ $json = json_encode($name);
  $surname = strtolower($_POST['surname']);
  $password = $_POST['password'];
  $url = '../reservedarea.html';
