@@ -18,6 +18,8 @@
       <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
       <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
 
       <link rel="stylesheet" href="css/generic.css">
       <link rel="stylesheet" href="css/navbar.css">
@@ -55,8 +57,8 @@
       -->
       <div class="conteiner-fluid" id="banner">
       
-        <img src="img/logo+bordo.png" alt="Responsive image" class="img-fluid logobanner">
-        <h1>TennisTavolo <br> SAN SALVATORE</h1>
+        <img src="img/logo+bordo.png" alt="" class="logobanner">
+        <!---<h1>TennisTavolo <br> SAN SALVATORE</h1>--->
          
       </div>
 
@@ -262,9 +264,9 @@
               Numero di telefono (presidente): <a href="tel:3397304875">3397304875</a> 
             </li>
             <br>
-            <li class="list-group-flush">
+            <!-- <li class="list-group-flush">
               Email: <a href="mailto:ttsansalvatore@gmail.com"><u>ttsansalvatore@gmail.com</u> </a> 
-            </li>
+            </li> -->
 
           </div>
 
@@ -276,14 +278,14 @@
 
           <div class="text-center" style="font-size: 20px; margin: 50px;">
 
-            <li class="list-group-flush">
+            <!-- <li class="list-group-flush">
               Facebook: <a href="https://www.facebook.com/groups/411057292583276"><u>facebook.com/GSTTSanSalvatore</u> </a> 
             </li>
             <li class="list-group-flush">
               Instagram: <a href="https://www.instagram.com/gsttsansalvatore/"><u>instagram.com/GSTTSanSalvatore</u> </a> 
-            </li>
+            </li> -->
             
-            <div class="container-fluid text-center">
+            <!-- <div class="container-fluid text-center">
               <div class="row">
                 <div class="col">
                   <blockquote style='width:500px;' class='instagram-media' data-instgrm-version='14'>
@@ -295,7 +297,7 @@
                 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D100425076485509%26id%3D100095540490179&show_text=true&width=500" width="500" height="424" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                 </div>
               </div>
-            </div>
+            </div> -->
 
             
             

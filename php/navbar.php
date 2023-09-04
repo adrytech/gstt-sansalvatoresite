@@ -57,13 +57,12 @@
                 <a class="nav-link" href="#quando">Quando</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Società
                 </a>
                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Giocatori</a></li>
-                  <li><a class="dropdown-item" href="#">Squadre</a></li>
-                  <li><a class="dropdown-item" href="#">Informazioni</a></li>
+                  <li><a class="dropdown-item" href="giocatoriesquadre.php">Giocatori - Squadre</a></li>
+                  <li><a class="dropdown-item" href="organigramma.php">Organigramma</a></li>
                 </ul>
               <li>
               <li class="nav-item">

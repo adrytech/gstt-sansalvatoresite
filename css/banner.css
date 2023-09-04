@@ -21,7 +21,6 @@
 #banner h1{
     position: absolute;
     font-family: sans-serif;
-    
     letter-spacing: 8px;
     color: rgb(230,255,255);
     text-shadow: 0px 0px 70px rgb(22, 22, 22);
@@ -34,8 +33,9 @@
 }
 
 .logobanner {
-   padding-right: 1050px;
+   padding-bottom: 220px;
    transform: scale(0.85);
+   min-width: 250px !important; 
 }
 
 /* .mainimg:hover{

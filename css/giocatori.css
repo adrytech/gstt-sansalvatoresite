@@ -1,0 +1,8 @@
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.padding{
+    padding-bottom: 30px;
+}
