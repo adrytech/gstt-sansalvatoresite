@@ -3,6 +3,9 @@
 html,
 
 body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
     font-family: 'Roboto Mono', monospace;
 
 }
@@ -21,3 +24,4 @@ a{
     background-color: #EAE3D2;
     position: relative;
 }
+

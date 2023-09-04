@@ -17,11 +17,10 @@ function date(){
         orario.parentNode.removeChild(orario);
         var btn = document.getElementById("btn");
         btn.parentNode.removeChild(btn);
-
     }
 
 }
-    
+
 function change(){
     var btn = document.getElementById("buttonchange");
     btn.innerHTML="Prenotato!";

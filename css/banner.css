@@ -1,13 +1,41 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 @import url('https://fonts.googleapis.com/css?family=Alfa Slab One');
 
-.mainimg{
-    position: relative;
-    background-color: #212529;
-    background-size: cover;
+/* html {
+} */
+
+#banner {
     height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
-    transition: 250ms linear;
+    background-image: url("../img/banner4.png");
+    background-position:center;
+    background-repeat: repeat-x;
+}
+
+
+
+#banner h1{
+    position: absolute;
+    font-family: sans-serif;
+    
+    letter-spacing: 8px;
+    color: rgb(230,255,255);
+    text-shadow: 0px 0px 70px rgb(22, 22, 22);
+    animation: color-cycle 5s infinite ease-in-out;
+    color: rgb(233, 233, 233);
+    text-transform: uppercase;
+    margin-top: -14px;
+    text-align: center;
+    width: 90%;
+}
+
+.logobanner {
+   padding-right: 1050px;
+   transform: scale(0.85);
 }
 
 /* .mainimg:hover{
@@ -21,8 +49,9 @@
     position: relative;
 }*/
 
-#banner{
-    position: absolute;
+
+/*#banner{
+    position: relative;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -35,10 +64,10 @@
     position: relative;
 } */
 
-#banner h1{
+/*#banner h1{
     margin: 0;
     font-weight: 450;
-    font-size: 5.6vw;
+    font-size: 5.05vw;
     font-family: 'Alfa Slab One', cursive;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -50,6 +79,7 @@
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
     transition: 300ms linear;
+    width: 90%;
 }
 
 /* #banner h1:hover{

@@ -1,9 +1,9 @@
 <?php
 session_start();
-$sessionid = $SESSION['id'];
 
 ?>
 
+<!DOCTYPE html>
 <html lang="it">
 
     <head>
@@ -43,7 +43,7 @@ $sessionid = $SESSION['id'];
 
             <div class="container-fluid my-container-fluid">
     
-              <a class="navbar-brand" href="index.html">
+              <a class="navbar-brand" href="index.php">
                 <img src="Derthona Logo/Derthona Logo 2.png" alt="" width="auto" height="30px" class="d-inline-block align-text-top">
                 T.T.Derthona
               </a>
@@ -56,25 +56,25 @@ $sessionid = $SESSION['id'];
     
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html#home">Home</a>
+                    <a class="nav-link" aria-current="page" href="index.php#home">Home</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="index.html#chisiamo">Chi siamo</a>
+                     <a class="nav-link" href="index.php#chisiamo">Chi siamo</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="index.html#dove">Dove</a>
+                    <a class="nav-link" href="index.php#dove">Dove</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="index.html#quando">Quando</a>
+                    <a class="nav-link" href="index.php#quando">Quando</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="index.html#contatti">Contatti</a>
+                    <a class="nav-link" href="index.php#contatti">Contatti</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="index.html#crediti">Crediti</a>
+                    <a class="nav-link" href="index.php#crediti">Crediti</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-success" id="userid" href="">Ciao</a>
+                    <a class="nav-link text-success" id="userid" href="">Ciao <?php echo session_name($name);?></a>
                   </li> 
                 </ul>
         
@@ -129,47 +129,12 @@ $sessionid = $SESSION['id'];
         </div>
 
 
-        <footer class="text-center text-lg-start" id="crediti">
-
-          <div id="greenline3" class="conteiner-fluid"></div>
-
-          <div class="container">
-
-            <div class="row">
-
-              <div class="profile-card-3 text-center"><img src="img/logoadry.png" class="img img-responsive">
-                <div class="profile-content">
-                    <a class="profile-name" href="https://github.com/adrytech">Adriano Delucchi</a>
-                    <br>
-                    <a href="https://www.instagram.com/adrytech/">@adrytech</a>
-                    <div class="profile-description">Developer del sito</div>
-                </div>
-              </div>
-
-              <div class="profile-card-3 text-center"><img src="Derthona Logo/Derthona Logo 2 copia.png" class="img img-responsive">
-                <div class="profile-content">
-                    <a class="profile-name">Logo Ufficiale</a>
-                    <br>
-                    <a href="https://facebook.com/Asdttderthona">@AsdDerthona</a>
-                    <div class="profile-description">Derthona</div>
-              </div>
-
-            </div>
-    
-            <div class="profile-card-3 text-center"><img src="img/logoemi.png" class="img img-responsive">
-              <div class="profile-content">
-                  <a class="profile-name">Emilio Arbasino</a>
-                  <br>
-                  <a href="https://www.instagram.com/emilioarbasino">@emilioarbasino</a>
-                  <div class="profile-description">Presidente</div>
-              </div>
-            </div>
-
-            <p class="text-center" style="padding: 20px;">© 2022 Copyright, All rights reserved.</p>  
-
-          </div>
-            
-        </footer>   
+        <!--
+        FOOTER
+        -->
+        <?php
+        include("php/footer.php");
+        ?>   
 
       </body>
 
