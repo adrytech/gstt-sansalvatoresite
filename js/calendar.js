@@ -7,7 +7,7 @@ function date(){
 
     // Dom = 0 , Lun = 1 , Mar = 2, Mer = 3, Gio = 4, Ven = 5, Sab = 6
 
-    if (today == 0 || today == 4) {
+    if (today == 2 || today == 5) {
         dayhtml.innerHTML= date.toLocaleDateString("it", option).bold();
     } else {
         dayhtml.innerHTML = "Non puoi prenotarti in questo giorno!".bold();
